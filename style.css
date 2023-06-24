@@ -96,6 +96,13 @@ header {
   .head{
     width: 80%;
   }
+  .a12{
+    transform: scale(1.5);
+  }
+  .img1{
+    transform: scale(1.5);
+    margin-bottom: 20px;
+  }
 }
 
 
