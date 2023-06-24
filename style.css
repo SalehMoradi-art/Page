@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2f2f42;
+  font-family: font1;
+  background-image: url(14.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.head{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  font-size: x-large;
+  display: flex;
+  margin: auto;
+}
+
+*.fade {
+  animation-name: fadein;
+  animation-duration: 1s;
+}
+@font-face {
+  font-family: font1;
+  src: url(1.woff);
+}
+@font-face {
+  font-family: font2;
+  src: url(2.woff);
+}
+.globall{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.glass{
+  width: 50%;
+  padding-top: 10vh;
+  height: 400px;
+  background-color: #fff6f617;
+  border-radius: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.204);
+  backdrop-filter: blur(5px);
+  margin: auto;
+  
+}
+.footer {
+  position: relative;
+  padding: 20px 0;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(80, 80, 80);
+  color: white;
+  text-align: center;
+}
+header {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 800px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  };
+  .a12{
+    font-size: 200px;
+  }
+  .id1{
+    flex-direction: column;
+  }
+  img {
+    transform: scale(0.8);
+  }
+  .glass{
+    width: 80%;
+  }
+  .head{
+    width: 80%;
+  }
+}
+
+
+
+button{
+  padding:10px 30px ;
+  background-color: rgb(52, 255, 11);
+  border: none;
+  border-radius: 10px;
+  font-family: font1;
+  font-size: medium;
+  transition: all 0.2s ease-in-out;
+}
+button:hover{
+  background-color: rgb(99, 255, 93);
+  transform: scale(1.1);
+  cursor: pointer;
+  color: aliceblue;
+  box-shadow: 0 0 20px chartreuse;
+}
+hr{
+  max-width: 80%;
+  border: 2px solid rgb(216, 216, 216);
+  border-radius: 20px;
+  opacity: 0.3;
+}
+.img1{
+  width: 50px;
+  border-radius: 50%;
+  transition: all 0.2s;
+  border: 1px solid chartreuse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: f1 ;
+}
+@keyframes f1 {
+  0% {
+    box-shadow: 0 0 0 0;
+  }
+  50% {
+    box-shadow: 0 0 20px rgb(236, 229, 255);
+  }
+  100% {
+    box-shadow: 0 0 0 0 ;
+  }
+}
+.img1:hover{
+  filter: brightness(1.5);
+}
+.id1 {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+  color: rgb(2, 49, 90);
+}
+
+.imgcl{
+  border-radius: 20px;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.322);
+  transition: all 0.2s;
+}
+.imgcl:hover{
+  filter: brightness(1.5);
+  transform: scale(1.05);
+}
+.anm{
+  animation-name: bounce;
+  animation-duration: 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes bounce {
+  from{
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
