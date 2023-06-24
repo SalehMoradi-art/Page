@@ -125,20 +125,6 @@ hr{
   border-radius: 50%;
   transition: all 0.2s;
   border: 1px solid chartreuse;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-name: f1 ;
-}
-@keyframes f1 {
-  0% {
-    box-shadow: 0 0 0 0;
-  }
-  50% {
-    box-shadow: 0 0 20px rgb(236, 229, 255);
-  }
-  100% {
-    box-shadow: 0 0 0 0 ;
-  }
 }
 .img1:hover{
   filter: brightness(1.5);
