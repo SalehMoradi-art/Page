@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: #2f2f42;
   font-family: font1;
-  background-image: url(14.jpg);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,0,89,1) 99%);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -13,6 +13,7 @@ body {
   
 }
 .head{
+  color: aqua;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -125,20 +126,6 @@ hr{
   border-radius: 50%;
   transition: all 0.2s;
   border: 1px solid chartreuse;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-name: f1 ;
-}
-@keyframes f1 {
-  0% {
-    box-shadow: 0 0 0 0;
-  }
-  50% {
-    box-shadow: 0 0 20px rgb(236, 229, 255);
-  }
-  100% {
-    box-shadow: 0 0 0 0 ;
-  }
 }
 .img1:hover{
   filter: brightness(1.5);
@@ -152,7 +139,7 @@ hr{
   align-items: center;
   text-align: center;
   gap: 80px;
-  color: rgb(2, 49, 90);
+  color: rgb(0, 155, 155);
 }
 
 .imgcl{
