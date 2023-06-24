@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: #2f2f42;
   font-family: font1;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,0,89,1) 99%);
+  background: linear-gradient(90deg, rgba(3,0,51,1) 0%, rgba(31,41,71,1) 100%);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -61,7 +61,8 @@ body {
   bottom: 0;
   margin: 0;
   width: 100%;
-  background-color: rgb(80, 80, 80);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,6,66,1) 19%, rgba(10,4,77,1) 42%, rgba(6,0,69,1) 63%, rgba(7,0,79,1) 81%, rgba(8,0,89,1) 99%);
+  border: 1px solid rgba(76, 0, 255, 0.623);
   color: white;
   text-align: center;
 }
@@ -100,10 +101,13 @@ header {
 
 
 button{
+  color: aqua;
   padding:10px 30px ;
-  background-color: rgb(52, 255, 11);
+  border-radius: 15px;
+background: #1f2947;
+box-shadow:  5px 5px 10px #101524,
+             -5px -5px 10px #2e3d6a;
   border: none;
-  border-radius: 10px;
   font-family: font1;
   font-size: medium;
   transition: all 0.2s ease-in-out;
@@ -125,7 +129,7 @@ hr{
   width: 50px;
   border-radius: 50%;
   transition: all 0.2s;
-  border: 1px solid chartreuse;
+  border: 1px solid rgb(47, 0, 255);
 }
 .img1:hover{
   filter: brightness(1.5);
