@@ -58,6 +58,7 @@ body{
     }
     .container2{
       gap: 80px;
+      width: 90%;
     }
     .br {
       width: 120px;
