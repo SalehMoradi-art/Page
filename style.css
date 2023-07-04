@@ -24,7 +24,7 @@ body {
 
 *.fade {
   animation-name: fadein;
-  animation-duration: 1s;
+  animation-duration: 3s;
 }
 @font-face {
   font-family: font1;
